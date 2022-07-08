@@ -12,9 +12,6 @@ An app to keep track of events/tasks of various boards in a single place.
 * __Cloud Firestore__ to access data from any device any time
 * __Notifications__ to remind you about upcoming events
 
-<!-- You can also check out this video to see the functionalities - 
-https://user-images.githubusercontent.com/77449847/145807516-57d02123-e576-409b-abf0-7ddc9f520994.mp4 -->
-
 ## Technologies
 * Dart
 * Flutter
@@ -25,31 +22,32 @@ To run this app, you will need to follow these 3 steps:
 
 ##### 1. Requirements 
   - Laptop
-
   - Xcode or Android Studio and Simulator or Device to test
-
   - Git installed on your Laptop. 
 
 
 ##### 2. Install Dart and Flutter
   - [Dart](https://dart.dev/get-dart)
-
   - [Flutter](https://flutter.dev/docs/get-started/install)
 
 
 ##### 3. Set up and run the app from your command line:
+  - Clone this repository
   ```
-  # Clone this repository
-  $ git clone https://github.com/akshatmittal2002/event-manager.git
-
-  # Go into the repository
-  $ cd event-manager
-
-  # Install all dependences 
-  $ flutter pub get
-
-  # Run App
-  $ flutter run
+    git clone https://github.com/akshatmittal2002/event-manager.git
+  ```
+  - Go into the repository
+  ```
+    cd event-manager
+  ```
+  - Install all dependences 
+  ```
+    flutter pub get
+  ```
+  - Start the simulator
+  - Run App
+  ```
+    flutter run
   ```
 
 ## Inspiration
